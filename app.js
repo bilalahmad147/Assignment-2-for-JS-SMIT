@@ -69,3 +69,64 @@
 // document.write(firstChar + remChar);
 
 
+// var num = 35.36;
+// document.write('Number : ' + num + '<br />');
+// var numToString = num.toString();
+// var res = numToString.replace('.', '');
+// document.write("Result : " + res);
+
+
+// var name = prompt('Enter your name : ');
+// for (var i = 0; i < name.length; i++) {
+//     if (name.charAt(i) === '!' || name.charAt(i) === '@'){
+//         alert("enter coorect user name.")
+//         break;
+//     }
+//     else{
+//         console.log(name);
+//     }
+// }
+
+
+// var bakeryItems = ['cake', 'apple pie,', 'cookie', 'chips', 'patties'];
+// var searchItem = prompt("Enter item name : ");
+// var a = false;
+// searchItem  = searchItem.toLowerCase();
+// for (var i = 0; i < bakeryItems.length; i++){
+//     if (searchItem === bakeryItems[i]){
+//         document.write("Item found on Index " + i);
+//         a = true;
+//         break;
+//     }
+// }
+// if ( a === false){
+//     document.write('Item not found.')
+// }
+
+
+// var userInput = prompt("Enter word :");
+// var lenOfInpt = userInput.length;
+// document.write(userInput.charAt(lenOfInpt - 1));
+
+
+// var c = prompt('Enter Password :');
+// var lengthOfInput = c.length;
+// if (c.charAt(0) === (c >= '0' && c <= '9')) {
+//     alert('not valid')
+// }
+// else if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')) {
+//     if (lengthOfInput > 6) {
+//         alert('Password length exceede');
+//     }
+//     else{
+//         alert('Password Saved')
+//     }
+// }
+// else {
+//     alert("Enter Correct Password");
+// }
+
+
+// var university = 'University of Karachi';
+// var universityIntoString = university.split('');
+// document.write(universityIntoString);
