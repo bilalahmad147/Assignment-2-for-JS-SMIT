@@ -1,4 +1,4 @@
-// String Method
+// String Method file no # 1
 
 // var fName = prompt("enter your first name :");
 // var lName = prompt("enter your last name :");
@@ -129,4 +129,71 @@
 
 // var university = 'University of Karachi';
 // var universityIntoString = university.split('');
-// document.write(universityIntoString);
+// for (var i=0;i<universityIntoString.length; i++){
+//     document.write(universityIntoString[i] + '<br />');
+// }
+
+
+// MATH METHODS file No # 2
+
+
+// var num = +prompt("enter number :");
+// var roundNum = Math.round(num);
+// document.write(roundNum + '<br />');
+// var ceilNum = Math.ceil(num);
+// document.write(ceilNum + '<br />');
+// var floorNum = Math.floor(num);
+// document.write(floorNum + '<br />');
+
+
+// var num = +prompt("enter number :");
+// var roundNum = Math.round(num);
+// document.write(roundNum + '<br />');
+// var ceilNum = Math.ceil(num);
+// document.write(ceilNum + '<br />');
+// var floorNum = Math.floor(num);
+// document.write(floorNum + '<br />');
+
+
+// var diceNum = (Math.random() * 7);
+// diceNum = Math.floor(diceNum);
+// document.write('Dice num is : ' + diceNum);
+
+
+// var coin = (Math.random() * 3);
+// var coinNum = Math.floor(coin);
+// if (coinNum === 2){
+//     document.write('Random Coin value is head');
+// }
+// else if (coinNum === 1){
+//     document.write('Random Coin value is tail');
+// }
+// else{
+//     document.write('Try Again')
+// }
+
+
+// var coin = (Math.random() * 100);
+// var coinNum = Math.floor(coin);
+// document.write(coinNum);
+
+
+// var coin = (Math.random() * 10);
+// var coinNum = Math.floor(coin);
+// var userInput = +prompt("enter a number");
+// if (userInput === coinNum){
+//     alert("Congrats your number is correct.")
+// }
+// else{
+//     alert("Try again")
+// }
+
+
+// DATE METHODS file No # 3
+
+
+// var todayDate = new Date();
+// document.write(todayDate);
+
+
+
